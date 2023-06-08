@@ -1,0 +1,939 @@
+{
+  "Users.Api.dll": {
+    "C:\\Users\\ericw\\dev\\.net\\Course.UnitTesting\\src\\Users.Api\\Program.cs": {
+      "Program/<<Main>$>d__0": {
+        "System.Void Program/<<Main>$>d__0::MoveNext()": {
+          "Lines": {
+            "7": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "21": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "30": 0,
+            "32": 0,
+            "34": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 276,
+              "EndOffset": 278,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 276,
+              "EndOffset": 306,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\ericw\\dev\\.net\\Course.UnitTesting\\src\\Users.Api\\Services\\UserService.cs": {
+      "Users.Api.Services.UserService": {
+        "System.Void Users.Api.Services.UserService::.ctor(Users.Api.Repositories.IUserRepository,Users.Api.Logging.ILoggerAdapter`1<Users.Api.Services.UserService>)": {
+          "Lines": {
+            "13": 15,
+            "14": 15,
+            "15": 15,
+            "16": 15,
+            "17": 15,
+            "18": 15
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Services.UserService/<CreateAsync>d__5": {
+        "System.Void Users.Api.Services.UserService/<CreateAsync>d__5::MoveNext()": {
+          "Lines": {
+            "61": 3,
+            "62": 3,
+            "63": 3,
+            "65": 3,
+            "66": 3,
+            "68": 1,
+            "69": 1,
+            "70": 1,
+            "71": 1,
+            "74": 3,
+            "75": 3,
+            "76": 3,
+            "77": 3,
+            "78": 2
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Services.UserService/<DeleteByIdAsync>d__6": {
+        "System.Void Users.Api.Services.UserService/<DeleteByIdAsync>d__6::MoveNext()": {
+          "Lines": {
+            "81": 4,
+            "82": 4,
+            "83": 4,
+            "85": 4,
+            "86": 4,
+            "88": 1,
+            "89": 1,
+            "90": 1,
+            "91": 1,
+            "94": 4,
+            "95": 4,
+            "96": 4,
+            "97": 4,
+            "98": 3
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Services.UserService/<GetAllAsync>d__3": {
+        "System.Void Users.Api.Services.UserService/<GetAllAsync>d__3::MoveNext()": {
+          "Lines": {
+            "21": 4,
+            "22": 4,
+            "23": 4,
+            "25": 4,
+            "26": 4,
+            "28": 1,
+            "29": 1,
+            "30": 1,
+            "31": 1,
+            "34": 4,
+            "35": 4,
+            "36": 4,
+            "37": 4,
+            "38": 3
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Services.UserService/<GetByIdAsync>d__4": {
+        "System.Void Users.Api.Services.UserService/<GetByIdAsync>d__4::MoveNext()": {
+          "Lines": {
+            "41": 4,
+            "42": 4,
+            "43": 4,
+            "45": 4,
+            "46": 4,
+            "48": 1,
+            "49": 1,
+            "50": 1,
+            "51": 1,
+            "54": 4,
+            "55": 4,
+            "56": 4,
+            "57": 4,
+            "58": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ericw\\dev\\.net\\Course.UnitTesting\\src\\Users.Api\\Options\\DbConnectionOptions.cs": {
+      "Users.Api.Options.DbConnectionOptions": {
+        "System.String Users.Api.Options.DbConnectionOptions::get_ConnectionString()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ericw\\dev\\.net\\Course.UnitTesting\\src\\Users.Api\\Models\\User.cs": {
+      "Users.Api.Models.User": {
+        "System.Guid Users.Api.Models.User::get_Id()": {
+          "Lines": {
+            "5": 35
+          },
+          "Branches": []
+        },
+        "System.String Users.Api.Models.User::get_FullName()": {
+          "Lines": {
+            "7": 30
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ericw\\dev\\.net\\Course.UnitTesting\\src\\Users.Api\\Mappers\\UserMapper.cs": {
+      "Users.Api.Mappers.UserMapper": {
+        "Users.Api.Contracts.UserResponse Users.Api.Mappers.UserMapper::ToUserResponse(Users.Api.Models.User)": {
+          "Lines": {
+            "9": 6,
+            "10": 6,
+            "11": 6,
+            "12": 6,
+            "13": 6,
+            "14": 6,
+            "15": 6
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ericw\\dev\\.net\\Course.UnitTesting\\src\\Users.Api\\Logging\\LoggerAdapter.cs": {
+      "Users.Api.Logging.LoggerAdapter`1": {
+        "System.Void Users.Api.Logging.LoggerAdapter`1::LogInformation(System.String,System.Object[])": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Void Users.Api.Logging.LoggerAdapter`1::LogError(System.Exception,System.String,System.Object[])": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Void Users.Api.Logging.LoggerAdapter`1::.ctor(Microsoft.Extensions.Logging.ILogger`1<TType>)": {
+          "Lines": {
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ericw\\dev\\.net\\Course.UnitTesting\\src\\Users.Api\\Data\\DatabaseInitializer.cs": {
+      "Users.Api.Data.DatabaseInitializer": {
+        "System.Void Users.Api.Data.DatabaseInitializer::.ctor(Users.Api.Data.ISqliteDbConnectionFactory)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Data.DatabaseInitializer/<InitializeAsync>d__2": {
+        "System.Void Users.Api.Data.DatabaseInitializer/<InitializeAsync>d__2::MoveNext()": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0
+          },
+          "Branches": [
+            {
+              "Line": 16,
+              "Offset": 16,
+              "EndOffset": 27,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 16,
+              "EndOffset": 201,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 541,
+              "EndOffset": 546,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 541,
+              "EndOffset": 708,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\ericw\\dev\\.net\\Course.UnitTesting\\src\\Users.Api\\Data\\SqliteDbConnectionFactory.cs": {
+      "Users.Api.Data.SqliteDbConnectionFactory": {
+        "System.Void Users.Api.Data.SqliteDbConnectionFactory::.ctor(Microsoft.Extensions.Options.IOptions`1<Users.Api.Options.DbConnectionOptions>)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Data.SqliteDbConnectionFactory/<CreateDbConnectionAsync>d__2": {
+        "System.Void Users.Api.Data.SqliteDbConnectionFactory/<CreateDbConnectionAsync>d__2::MoveNext()": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ericw\\dev\\.net\\Course.UnitTesting\\src\\Users.Api\\Data\\SqliteGuidTypeHandler.cs": {
+      "Users.Api.Data.SqLiteGuidTypeHandler": {
+        "System.Void Users.Api.Data.SqLiteGuidTypeHandler::SetValue(System.Data.IDbDataParameter,System.Guid)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Guid Users.Api.Data.SqLiteGuidTypeHandler::Parse(System.Object)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ericw\\dev\\.net\\Course.UnitTesting\\src\\Users.Api\\Controllers\\UserController.cs": {
+      "Users.Api.Controllers.UserController": {
+        "System.Void Users.Api.Controllers.UserController::.ctor(Users.Api.Services.IUserService)": {
+          "Lines": {
+            "14": 8,
+            "15": 8,
+            "16": 8,
+            "17": 8
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Controllers.UserController/<>c": {
+        "Users.Api.Contracts.UserResponse Users.Api.Controllers.UserController/<>c::<GetAll>b__2_0(Users.Api.Models.User)": {
+          "Lines": {
+            "23": 3
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Controllers.UserController/<Create>d__4": {
+        "System.Void Users.Api.Controllers.UserController/<Create>d__4::MoveNext()": {
+          "Lines": {
+            "43": 2,
+            "44": 2,
+            "45": 2,
+            "46": 2,
+            "47": 2,
+            "49": 2,
+            "50": 2,
+            "51": 1,
+            "53": 1,
+            "56": 1,
+            "58": 1,
+            "59": 2
+          },
+          "Branches": [
+            {
+              "Line": 50,
+              "Offset": 186,
+              "EndOffset": 188,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 50,
+              "Offset": 186,
+              "EndOffset": 203,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Users.Api.Controllers.UserController/<DeleteById>d__5": {
+        "System.Void Users.Api.Controllers.UserController/<DeleteById>d__5::MoveNext()": {
+          "Lines": {
+            "63": 2,
+            "64": 2,
+            "65": 2,
+            "66": 1,
+            "67": 1,
+            "70": 1,
+            "71": 2
+          },
+          "Branches": [
+            {
+              "Line": 65,
+              "Offset": 157,
+              "EndOffset": 159,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 65,
+              "Offset": 157,
+              "EndOffset": 174,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Users.Api.Controllers.UserController/<GetAll>d__2": {
+        "System.Void Users.Api.Controllers.UserController/<GetAll>d__2::MoveNext()": {
+          "Lines": {
+            "21": 2,
+            "22": 2,
+            "24": 2,
+            "25": 2
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Controllers.UserController/<GetById>d__3": {
+        "System.Void Users.Api.Controllers.UserController/<GetById>d__3::MoveNext()": {
+          "Lines": {
+            "29": 2,
+            "30": 2,
+            "31": 2,
+            "32": 1,
+            "33": 1,
+            "36": 1,
+            "38": 1,
+            "39": 2
+          },
+          "Branches": [
+            {
+              "Line": 31,
+              "Offset": 164,
+              "EndOffset": 166,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 31,
+              "Offset": 164,
+              "EndOffset": 181,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\ericw\\dev\\.net\\Course.UnitTesting\\src\\Users.Api\\Contracts\\CreateUserRequest.cs": {
+      "Users.Api.Contracts.CreateUserRequest": {
+        "System.String Users.Api.Contracts.CreateUserRequest::get_FullName()": {
+          "Lines": {
+            "5": 6
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ericw\\dev\\.net\\Course.UnitTesting\\src\\Users.Api\\Contracts\\UserResponse.cs": {
+      "Users.Api.Contracts.UserResponse": {
+        "System.Guid Users.Api.Contracts.UserResponse::get_Id()": {
+          "Lines": {
+            "5": 13
+          },
+          "Branches": []
+        },
+        "System.String Users.Api.Contracts.UserResponse::get_FullName()": {
+          "Lines": {
+            "7": 18
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Users.Api.Tests.Unit.dll": {
+    "C:\\Users\\ericw\\.nuget\\packages\\microsoft.net.test.sdk\\17.5.0\\build\\netcoreapp3.1\\Microsoft.NET.Test.Sdk.Program.cs": {
+      "AutoGeneratedProgram": {
+        "System.Void AutoGeneratedProgram::Main(System.String[])": {
+          "Lines": {
+            "4": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ericw\\dev\\.net\\Course.UnitTesting\\Users.Api.Tests.Unit\\UserControllerTests.cs": {
+      "Users.Api.Tests.Unit.UserControllerTests": {
+        "System.Void Users.Api.Tests.Unit.UserControllerTests::.ctor()": {
+          "Lines": {
+            "17": 8,
+            "20": 8,
+            "21": 8,
+            "22": 8,
+            "23": 8
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserControllerTests/<>c": {
+        "Users.Api.Contracts.UserResponse Users.Api.Tests.Unit.UserControllerTests/<>c::<GetAll_ReturnUserResponse_WhenUsersExist>b__6_0(Users.Api.Models.User)": {
+          "Lines": {
+            "81": 2
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserControllerTests/<>c__DisplayClass8_0": {
+        "System.Void Users.Api.Tests.Unit.UserControllerTests/<>c__DisplayClass8_0::<Create_ShouldReturnUserResponse_WhenUserCreated>b__0(Users.Api.Models.User)": {
+          "Lines": {
+            "115": 2
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserControllerTests/<Create_ReturnsBadrequest_WhenUsersWasntCreated>d__7": {
+        "System.Void Users.Api.Tests.Unit.UserControllerTests/<Create_ReturnsBadrequest_WhenUsersWasntCreated>d__7::MoveNext()": {
+          "Lines": {
+            "93": 1,
+            "95": 1,
+            "97": 1,
+            "99": 1,
+            "100": 1
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserControllerTests/<Create_ShouldReturnUserResponse_WhenUserCreated>d__8": {
+        "System.Void Users.Api.Tests.Unit.UserControllerTests/<Create_ShouldReturnUserResponse_WhenUserCreated>d__8::MoveNext()": {
+          "Lines": {
+            "104": 1,
+            "106": 1,
+            "107": 1,
+            "108": 1,
+            "109": 1,
+            "111": 1,
+            "112": 1,
+            "113": 1,
+            "114": 1,
+            "118": 1,
+            "120": 1,
+            "121": 1,
+            "122": 1,
+            "123": 1,
+            "124": 1
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserControllerTests/<DeleteById_ReturnsNotFound_WhenNotDeleted>d__10": {
+        "System.Void Users.Api.Tests.Unit.UserControllerTests/<DeleteById_ReturnsNotFound_WhenNotDeleted>d__10::MoveNext()": {
+          "Lines": {
+            "140": 1,
+            "142": 1,
+            "143": 1,
+            "145": 1,
+            "147": 1,
+            "148": 1
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserControllerTests/<DeleteById_ReturnsOk_WhenUserDeleted>d__9": {
+        "System.Void Users.Api.Tests.Unit.UserControllerTests/<DeleteById_ReturnsOk_WhenUserDeleted>d__9::MoveNext()": {
+          "Lines": {
+            "128": 1,
+            "130": 1,
+            "133": 1,
+            "135": 1,
+            "136": 1
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserControllerTests/<GetAll_ReturnUserResponse_WhenUsersExist>d__6": {
+        "System.Void Users.Api.Tests.Unit.UserControllerTests/<GetAll_ReturnUserResponse_WhenUsersExist>d__6::MoveNext()": {
+          "Lines": {
+            "70": 1,
+            "72": 1,
+            "73": 1,
+            "74": 1,
+            "75": 1,
+            "76": 1,
+            "77": 1,
+            "78": 1,
+            "79": 1,
+            "82": 1,
+            "85": 1,
+            "87": 1,
+            "88": 1,
+            "89": 1
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserControllerTests/<GetAll_ReturnsOkEmptyList_WhenNoUsersExist>d__5": {
+        "System.Void Users.Api.Tests.Unit.UserControllerTests/<GetAll_ReturnsOkEmptyList_WhenNoUsersExist>d__5::MoveNext()": {
+          "Lines": {
+            "58": 1,
+            "60": 1,
+            "62": 1,
+            "64": 1,
+            "65": 1,
+            "66": 1
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserControllerTests/<GetById_ReturnsNotFound_WhenNoUserExist>d__4": {
+        "System.Void Users.Api.Tests.Unit.UserControllerTests/<GetById_ReturnsNotFound_WhenNoUserExist>d__4::MoveNext()": {
+          "Lines": {
+            "46": 1,
+            "48": 1,
+            "49": 1,
+            "51": 1,
+            "53": 1,
+            "54": 1
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserControllerTests/<GetById_ReturnsOkAndObject_WhenUserExist>d__3": {
+        "System.Void Users.Api.Tests.Unit.UserControllerTests/<GetById_ReturnsOkAndObject_WhenUserExist>d__3::MoveNext()": {
+          "Lines": {
+            "27": 1,
+            "29": 1,
+            "30": 1,
+            "31": 1,
+            "32": 1,
+            "33": 1,
+            "35": 1,
+            "36": 1,
+            "38": 1,
+            "40": 1,
+            "41": 1,
+            "42": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ericw\\dev\\.net\\Course.UnitTesting\\Users.Api.Tests.Unit\\UserServiceTests.cs": {
+      "Users.Api.Tests.Unit.UserServiceTests": {
+        "System.Void Users.Api.Tests.Unit.UserServiceTests::.ctor()": {
+          "Lines": {
+            "19": 15,
+            "20": 15,
+            "21": 15,
+            "22": 15,
+            "23": 15,
+            "24": 15
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserServiceTests/<<GetAllSync_ShouldLogMessageAndException_WhenExceptionIsThrown>b__7_0>d": {
+        "System.Void Users.Api.Tests.Unit.UserServiceTests/<<GetAllSync_ShouldLogMessageAndException_WhenExceptionIsThrown>b__7_0>d::MoveNext()": {
+          "Lines": {
+            "81": 2
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserServiceTests/<>c__DisplayClass11_0/<<GetByIdSync_ShouldLogMessagesAndThrowException_WhenExceptionThrown>b__0>d": {
+        "System.Void Users.Api.Tests.Unit.UserServiceTests/<>c__DisplayClass11_0/<<GetByIdSync_ShouldLogMessagesAndThrowException_WhenExceptionThrown>b__0>d::MoveNext()": {
+          "Lines": {
+            "141": 2
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserServiceTests/<>c__DisplayClass14_0/<<CreateSync_ShouldLogMessagesAndThrowException_WhenExceptionThrown>b__0>d": {
+        "System.Void Users.Api.Tests.Unit.UserServiceTests/<>c__DisplayClass14_0/<<CreateSync_ShouldLogMessagesAndThrowException_WhenExceptionThrown>b__0>d::MoveNext()": {
+          "Lines": {
+            "200": 2
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserServiceTests/<>c__DisplayClass18_0/<<DeleteByIdAsync_ShouldLogMessagesAndThrowException_WhenExceptionThrown>b__0>d": {
+        "System.Void Users.Api.Tests.Unit.UserServiceTests/<>c__DisplayClass18_0/<<DeleteByIdAsync_ShouldLogMessagesAndThrowException_WhenExceptionThrown>b__0>d::MoveNext()": {
+          "Lines": {
+            "254": 2
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserServiceTests/<CreateAsync_ShouldCreateUser_WhenUserIsValid>d__12": {
+        "System.Void Users.Api.Tests.Unit.UserServiceTests/<CreateAsync_ShouldCreateUser_WhenUserIsValid>d__12::MoveNext()": {
+          "Lines": {
+            "151": 1,
+            "154": 1,
+            "155": 1,
+            "156": 1,
+            "157": 1,
+            "158": 1,
+            "161": 1,
+            "163": 1,
+            "165": 1,
+            "166": 1
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserServiceTests/<CreateAsync_ShouldLogMessage_WhenInvoked>d__13": {
+        "System.Void Users.Api.Tests.Unit.UserServiceTests/<CreateAsync_ShouldLogMessage_WhenInvoked>d__13::MoveNext()": {
+          "Lines": {
+            "170": 1,
+            "173": 1,
+            "174": 1,
+            "175": 1,
+            "176": 1,
+            "177": 1,
+            "179": 1,
+            "181": 1,
+            "183": 1,
+            "184": 1,
+            "185": 1
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserServiceTests/<CreateSync_ShouldLogMessagesAndThrowException_WhenExceptionThrown>d__14": {
+        "System.Void Users.Api.Tests.Unit.UserServiceTests/<CreateSync_ShouldLogMessagesAndThrowException_WhenExceptionThrown>d__14::MoveNext()": {
+          "Lines": {
+            "189": 1,
+            "191": 1,
+            "192": 1,
+            "193": 1,
+            "194": 1,
+            "195": 1,
+            "196": 1,
+            "198": 1,
+            "202": 1,
+            "203": 1,
+            "204": 1,
+            "205": 1,
+            "206": 1
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserServiceTests/<DeleteByIdAsync_ShouldLogMessagesAndThrowException_WhenExceptionThrown>d__18": {
+        "System.Void Users.Api.Tests.Unit.UserServiceTests/<DeleteByIdAsync_ShouldLogMessagesAndThrowException_WhenExceptionThrown>d__18::MoveNext()": {
+          "Lines": {
+            "248": 1,
+            "250": 1,
+            "251": 1,
+            "252": 1,
+            "256": 1,
+            "257": 1,
+            "258": 1,
+            "259": 1,
+            "260": 1
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserServiceTests/<DeleteByIdAsync_ShouldLogMessages_WhenInvoked>d__17": {
+        "System.Void Users.Api.Tests.Unit.UserServiceTests/<DeleteByIdAsync_ShouldLogMessages_WhenInvoked>d__17::MoveNext()": {
+          "Lines": {
+            "235": 1,
+            "237": 1,
+            "238": 1,
+            "240": 1,
+            "242": 1,
+            "243": 1,
+            "244": 1
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserServiceTests/<DeleteByIdAsync_ShouldReturnNull_WhenNoUserExist>d__16": {
+        "System.Void Users.Api.Tests.Unit.UserServiceTests/<DeleteByIdAsync_ShouldReturnNull_WhenNoUserExist>d__16::MoveNext()": {
+          "Lines": {
+            "223": 1,
+            "225": 1,
+            "226": 1,
+            "228": 1,
+            "230": 1,
+            "231": 1
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserServiceTests/<DeleteByIdAsync_ShouldReturnUser_WhenUserExist>d__15": {
+        "System.Void Users.Api.Tests.Unit.UserServiceTests/<DeleteByIdAsync_ShouldReturnUser_WhenUserExist>d__15::MoveNext()": {
+          "Lines": {
+            "210": 1,
+            "212": 1,
+            "214": 1,
+            "216": 1,
+            "218": 1,
+            "219": 1
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserServiceTests/<GetAllSync_ShouldLogMessageAndException_WhenExceptionIsThrown>d__7": {
+        "System.Void Users.Api.Tests.Unit.UserServiceTests/<GetAllSync_ShouldLogMessageAndException_WhenExceptionIsThrown>d__7::MoveNext()": {
+          "Lines": {
+            "75": 1,
+            "77": 1,
+            "79": 1,
+            "83": 1,
+            "84": 1,
+            "85": 1,
+            "87": 1,
+            "88": 1
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserServiceTests/<GetAllSync_ShouldLogMessages_WhenInvoked>d__6": {
+        "System.Void Users.Api.Tests.Unit.UserServiceTests/<GetAllSync_ShouldLogMessages_WhenInvoked>d__6::MoveNext()": {
+          "Lines": {
+            "62": 1,
+            "64": 1,
+            "67": 1,
+            "69": 1,
+            "70": 1,
+            "71": 1
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserServiceTests/<GetAllSync_ShouldReturnEmptyList_WhenNoUserExist>d__4": {
+        "System.Void Users.Api.Tests.Unit.UserServiceTests/<GetAllSync_ShouldReturnEmptyList_WhenNoUserExist>d__4::MoveNext()": {
+          "Lines": {
+            "28": 1,
+            "30": 1,
+            "33": 1,
+            "35": 1,
+            "36": 1
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserServiceTests/<GetAllSync_ShouldReturnList_WhenUsersExist>d__5": {
+        "System.Void Users.Api.Tests.Unit.UserServiceTests/<GetAllSync_ShouldReturnList_WhenUsersExist>d__5::MoveNext()": {
+          "Lines": {
+            "40": 1,
+            "42": 1,
+            "43": 1,
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "47": 1,
+            "48": 1,
+            "49": 1,
+            "51": 1,
+            "54": 1,
+            "56": 1,
+            "57": 1,
+            "58": 1
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserServiceTests/<GetByIdAsync_ShouldReturnNull_WhenNoUserExist>d__9": {
+        "System.Void Users.Api.Tests.Unit.UserServiceTests/<GetByIdAsync_ShouldReturnNull_WhenNoUserExist>d__9::MoveNext()": {
+          "Lines": {
+            "110": 1,
+            "112": 1,
+            "113": 1,
+            "115": 1,
+            "117": 1,
+            "118": 1
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserServiceTests/<GetByIdAsync_ShouldReturnUser_WhenUserExist>d__8": {
+        "System.Void Users.Api.Tests.Unit.UserServiceTests/<GetByIdAsync_ShouldReturnUser_WhenUserExist>d__8::MoveNext()": {
+          "Lines": {
+            "92": 1,
+            "94": 1,
+            "95": 1,
+            "96": 1,
+            "97": 1,
+            "98": 1,
+            "101": 1,
+            "103": 1,
+            "105": 1,
+            "106": 1
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserServiceTests/<GetByIdSync_ShouldLogMessagesAndThrowException_WhenExceptionThrown>d__11": {
+        "System.Void Users.Api.Tests.Unit.UserServiceTests/<GetByIdSync_ShouldLogMessagesAndThrowException_WhenExceptionThrown>d__11::MoveNext()": {
+          "Lines": {
+            "135": 1,
+            "137": 1,
+            "138": 1,
+            "139": 1,
+            "143": 1,
+            "144": 1,
+            "145": 1,
+            "146": 1,
+            "147": 1
+          },
+          "Branches": []
+        }
+      },
+      "Users.Api.Tests.Unit.UserServiceTests/<GetByIdSync_ShouldLogMessages_WhenInvoked>d__10": {
+        "System.Void Users.Api.Tests.Unit.UserServiceTests/<GetByIdSync_ShouldLogMessages_WhenInvoked>d__10::MoveNext()": {
+          "Lines": {
+            "122": 1,
+            "124": 1,
+            "125": 1,
+            "127": 1,
+            "129": 1,
+            "130": 1,
+            "131": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
